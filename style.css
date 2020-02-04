@@ -1,0 +1,130 @@
+h2 {    
+    color: #21D3A6;
+}
+
+.profileimg {
+    width: 200px;
+    height: 200px;
+}
+
+.navbar {
+    padding: 25px;
+    margin-left: 400px;
+}
+
+section {
+    background-color: #C6C5C3;
+}
+
+footer {
+    background-color: #6E6E6E;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    border-top: 5px solid #21D3A6;
+    padding: 20px;
+}
+
+header {
+    margin-left: 20px;
+}
+
+.headercolor {
+    background-color: #21D3A6;
+    color: white;
+    text-align: center;
+}
+
+.portfolioimgleft,
+.portfolioimgright {
+    width: 250px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.btnbtn{
+    background-color: #21D3A6;
+    padding: 10px;
+    color: white;
+    float: left;
+    width: 93%;
+    text-align: center;
+}
+
+
+
+ @media screen and (max-width: 979px){
+    .container {
+           width: 100%;
+    }
+
+    .headercolor {
+        width: 70%;
+    }
+
+    .navbar {
+        width: 30%;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;   
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container {
+        width: 100%;
+        background-color: yellow;
+    }
+
+    .profileimg {
+        width: 50%;
+    }
+
+    .portfolioimgleft {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .portfolioimgright {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .btnbtn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .headercolor {
+        width: 100%;
+    }
+
+    .navbar {
+        width: 100%;
+    }
+
+    .profileimg {
+        width: 100%;
+        height: 100%
+    }
+
+    .portfolioimgleft {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .portfolioimgright {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .btnbtn {
+        width: 100%;
+    }
+}
